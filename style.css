@@ -9,7 +9,8 @@ right: 20px
 .navb{display: flex;
     position: sticky;
     justify-content: space-between;
-    top:0px
+    top:0px;
+    background-color: white;
 }
 #abtus{color:lightseagreen;
 text-decoration: none;}
@@ -37,7 +38,7 @@ margin: 20px;}
 .perp{display: flex;
 justify-content: space-around;
 padding: 20px 400px;}
-.hospital{border: 3px solid black;
+.hospital{border: 3px solid midnightblue;
 background-color:midnightblue;
 font-size:x-large;
 color: white;}
@@ -45,8 +46,8 @@ color: white;}
 border: none;
 text-decoration: underline;
 color: white;}
-.patient{border: 3px solid black;
-    background-color:midnightblue;
+.patient{border: 3px solid lightseagreen;
+    background-color:lightseagreen;
     font-size:x-large;
     color: white;}
 .medecin{border: 3px solid rgb(0, 174, 255);
@@ -58,8 +59,24 @@ margin: 0px 30px;}
     border: none;
     text-decoration: underline;
     color: white;}
-.patient select{background-color: midnightblue;
+.patient select{background-color:lightseagreen;
     border: none;
     text-decoration: underline;
     color: white;}
-.medecin:hover{filter: brightness(1.75);}
+.medecin:hover{filter: brightness(1.13);}
+.patient:hover{filter: brightness(1.13);}
+.hospital:hover{filter: brightness(1.13);}
+.last p{color: lightseagreen;}
+.last{display: flex;
+margin: 40px;
+justify-content: space-around;
+margin-left: 300px
+;}
+.lastp{display: flex;
+flex-wrap: wrap;
+
+}
+.lastp p{filter: brightness(0.6);
+margin: 20px;}
+.lastp p:hover{filter:brightness(1)}
+.last p{font-size: larger}
